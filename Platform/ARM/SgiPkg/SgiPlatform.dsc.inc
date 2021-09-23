@@ -1,6 +1,6 @@
 #
-#  Copyright (c) 2018-2021, ARM Limited. All rights reserved.
-#  (C) Copyright 2021 Hewlett Packard Enterprise Development LP<BR>
+#  Copyright (c) 2018-2022, ARM Limited. All rights reserved.
+#  (C) Copyright 2021-2022 Hewlett Packard Enterprise Development LP<BR>
 #
 #  SPDX-License-Identifier: BSD-2-Clause-Patent
 #
@@ -157,6 +157,8 @@
   gEmbeddedTokenSpaceGuid.PcdPrePiCpuIoSize|24
 
   ## PL011 - Serial Terminal
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSerialRegisterBase|0x2A400000
+  gArmPlatformTokenSpaceGuid.PcdSerialDbgRegisterBase|0x2A400000
   gEfiMdePkgTokenSpaceGuid.PcdUartDefaultBaudRate|115200
   gEfiMdePkgTokenSpaceGuid.PcdUartDefaultReceiveFifoDepth|0
   gArmPlatformTokenSpaceGuid.PL011UartInteger|4
